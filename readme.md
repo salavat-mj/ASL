@@ -1,6 +1,7 @@
 ## **ASL**
 
-DB of accounts, sessions and legs (connections).
+DB of accounts, sessions and legs (connections).  
+
 In the test version of the database it is assumed:
 - there are 10 accounts in the DB
 - each account has 10 numbers
