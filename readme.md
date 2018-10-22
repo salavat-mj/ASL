@@ -1,7 +1,19 @@
+## **ASL**
+
+DB of accounts, sessions and legs (connections).
+In the test version of the database it is assumed:
+- there are 10 accounts in the DB
+- each account has 10 numbers
+- each call session is served by one server
+- legs go from phone to server and from server to phone
+Not supported:
+- conference sessions  
+- legs from server to server 
+
 ## **Installation guide**
 
 1. To install MongoDB:  
-> https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+> https://docs.mongodb.com/manual/administration/install-community/
 
 2. To install pymongo driver:
 ```
